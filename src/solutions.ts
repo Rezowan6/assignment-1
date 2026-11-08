@@ -12,7 +12,7 @@ console.log(multiplyValue(10, 5));
 console.log(multiplyValue(10, 0));
 
 // Todo: Problem 2:
-const processInput = (value: string | number | boolean) => {
+const processInput = (value: string | number | boolean): string | number => {
   if (typeof value === "string") {
     return value.trim().toLowerCase();
   } else if (typeof value === "number") {
@@ -33,7 +33,9 @@ console.log(processInput(false));
 
 // Todo: Problem 3:
 
-const formatCoordinate = (coordinate: readonly [number, number, string]) => {
+const formatCoordinate = (
+  coordinate: readonly [number, number, string],
+): string => {
   const [latitude, longitude, locationName] = coordinate;
 
   return `Location: ${locationName} (${latitude} ${longitude})`;
