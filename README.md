@@ -23,7 +23,7 @@
 
 সব Coding Solutions একটি ফাইলে রাখা হয়েছে।
 
-**Solutions File:** [Add your GitHub solutions.ts link here]
+**Solutions File:** [GitHub Repository](https://github.com/Rezowan6/assignment-1)
 
 ## **Author**
 
